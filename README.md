@@ -137,9 +137,9 @@ ccd/
 
 ## 📞 联系方式
 
-- 邮箱: your.email@example.com
-- 微信: your-wechat
-- Issue: [GitHub Issues](https://github.com/yourusername/ccd-camera/issues)
+- 邮箱: 1196452041@qq.com
+- 微信: xrw119
+- Issue: [GitHub Issues](https://github.com/xiarongwen/ccd-cam-app)
 
 ## 🙏 致谢
 
