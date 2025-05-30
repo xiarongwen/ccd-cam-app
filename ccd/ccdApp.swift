@@ -11,7 +11,8 @@ import SwiftUI
 struct ccdApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchScreenView()
+                .preferredColorScheme(ColorScheme.dark) // 强制使用深色模式
         }
     }
 }

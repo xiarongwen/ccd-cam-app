@@ -29,9 +29,22 @@
 		6AC1644F2DE09E9000093DA6 /* ccdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ccdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6AC164842DE0A9C100093DA6 /* Exceptions for "ccd" folder in "ccd" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6AC164372DE09E8E00093DA6 /* ccd */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6AC1643A2DE09E8E00093DA6 /* ccd */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6AC164842DE0A9C100093DA6 /* Exceptions for "ccd" folder in "ccd" target */,
+			);
 			path = ccd;
 			sourceTree = "<group>";
 		};
@@ -400,6 +413,9 @@
 				DEVELOPMENT_TEAM = P2VJC97L68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ccd/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CCD相机需要使用您的相机来拍摄照片并应用复古滤镜效果";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "CCD相机需要将拍摄的照片保存到您的相册";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +444,9 @@
 				DEVELOPMENT_TEAM = P2VJC97L68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ccd/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CCD相机需要使用您的相机来拍摄照片并应用复古滤镜效果";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "CCD相机需要将拍摄的照片保存到您的相册";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
